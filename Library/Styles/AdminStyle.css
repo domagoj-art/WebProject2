@@ -1,0 +1,199 @@
+body {margin:0;font-family:Arial}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 17px;    
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.topnav a:hover, .dropdown:hover .dropbtn {
+  background-color: #555;
+  color: white;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+@media screen and (max-width: 700px) {
+  .topnav a, .dropdown .dropbtn {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .topnav.responsive .dropdown {float: none;}
+  .topnav.responsive .dropdown-content {position: relative;}
+  .topnav.responsive .dropdown .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+.topnav>.sign-out{
+    float: right;
+    margin-left: auto;
+  }
+  #books {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #books td, #books th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    opacity: 0.8;
+  }
+  
+  #books tr:nth-child(even){
+    background-color: #f2f2f2;
+    opacity: 0.8;
+  }
+  
+  #books tr:hover {
+    background-color: #ddd;
+    opacity: 0.8;
+  }
+  
+  #books th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #040faa;
+    color: white;
+    opacity: 0.8;
+  }
+  .aboutme{
+    display: flex;
+  }
+  .info{
+    margin-left: 36px;
+  }
+.pages{
+  display: flex;
+  justify-content: center;
+  margin-top: 4px;
+}
+.next{
+  margin-left: 8px;
+}
+.Previous{
+  margin-right: 8px;
+}
+.current{
+  margin-left: 8px;
+  margin-right: 8px;
+}
+a{
+  text-decoration: none;
+}
+.form{
+  display: flex;
+  justify-content: center;
+}
+.form2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 128px;
+}
+.doc{
+  margin: 24px;
+}
+.button{
+  width: 100%;
+  background-color: #040faa;
+  color: #ddd;
+  border-radius: 20px;
+  border: none;
+}
+.button:hover{
+  background-color: darkcyan;
+  color: black;
+  border-radius: 20px;
+  border: none;
+}
+input{
+  margin-top: 4px;
+}
+.search{
+  display: flex;
+  justify-content: right;
+  margin-right: 8px;
+}
+  
+

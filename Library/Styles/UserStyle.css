@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("../Images/UserBackgroun.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+  }
+.header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+  }
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  
+  .topnav .icon {
+    display: none;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav a {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  }
+  .topnav>.sign-out{
+    float: right;
+    margin-left: auto;
+  }
+  .responsiveContainer{
+    margin: 56px;
+    word-wrap: break-word;
+    
+  }
+  @media screen and (max-width: 600px){
+
+      .responsiveContainer{
+          width: 100%;
+          word-wrap: break-word;
+        }
+    }
+    .active{
+        background-color: #ddd;
+        color: black;
+    }
+    #books {
+      font-family: Arial, Helvetica, sans-serif;
+      border-collapse: collapse;
+      width: 100%;
+    }
+    
+    #books td, #books th {
+      border: 1px solid #ddd;
+      padding: 8px;
+      opacity: 0.8;
+    }
+    
+    #books tr:nth-child(even){
+      background-color: #f2f2f2;
+      opacity: 0.8;
+    }
+    
+    #books tr:hover {
+      background-color: #ddd;
+      opacity: 0.8;
+    }
+    
+    #books th {
+      padding-top: 12px;
+      padding-bottom: 12px;
+      text-align: left;
+      background-color: darkcyan;
+      color: white;
+      opacity: 0.8;
+    }
+    a{
+      text-decoration: none;
+    }
